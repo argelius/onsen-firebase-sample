@@ -1,0 +1,44 @@
+span.story-title {
+  display: block;
+  float: left;
+  width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+span.story-site {
+  display: block;
+  float: right;
+  width: 25%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+span.story-info {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0.6;
+  font-size: 13px;
+}
+
+ons-list-item.story {
+  line-height: 22px;
+}
+
+div.navigation-bar__title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ons-icon[icon="ion-social-hackernews-outline"] {
+  color: white;
+}

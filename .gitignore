@@ -1,0 +1,6 @@
+/platforms
+/plugins
+/bower_components
+/node_modules
+npm-debug.log
+*.swp
