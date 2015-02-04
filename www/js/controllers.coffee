@@ -46,8 +46,8 @@ angular
         .child 'topstories'
         .limitToFirst 20
         .once 'value', (data) ->
+          console.log(data.val())
           ids = data.val()
-          console.log ids
 
           promises = []
           for id in ids
@@ -73,7 +73,6 @@ angular
         .child 'maxitem'
         .once 'value', (data) ->
           maxId = data.val()
-          console.log maxId
 
           promises = []
           for id in [maxId...maxId - 100]
